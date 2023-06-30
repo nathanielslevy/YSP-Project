@@ -17,13 +17,16 @@ HPUB - public coverage in household in last year
 HPRIV - private coverage in household in last year
 
 *Demographic Data:*
+
 PRDTRACE - numerical values for race
 
 *Age Data:*
+
 HUNDER15 - age code for people under 15+
 AGE1 - age code for people over 15+
 
 *Economic Status:*
+
 FTOT_R - total family income
 HHINC - total household income
 FAMLIS - families in poverty
