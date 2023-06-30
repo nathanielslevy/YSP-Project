@@ -12,8 +12,11 @@ Nate's Github User: natelevy1
 
 *Health Insurance Coverage:*
 HCOV - Health insurance in the last year per household
+
 NOW_HCOV - Current health insurance per household
+
 HPUB - public coverage in household in last year
+
 HPRIV - private coverage in household in last year
 
 *Demographic Data:*
@@ -28,7 +31,9 @@ AGE1 - age code for people over 15+
 *Economic Status:*
 
 FTOT_R - total family income
+
 HHINC - total household income
+
 FAMLIS - families in poverty
 
 
