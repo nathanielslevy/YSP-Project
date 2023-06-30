@@ -1,5 +1,7 @@
 # YSP-Project
+
 Maitreyi's Github User: maitreyis15
+
 Nate's Github User: natelevy1
 
 **Research Question:** What is the correlation between race, economic status, and age in terms of health insurance coverage?
@@ -11,30 +13,32 @@ Nate's Github User: natelevy1
 **Documentation Analysis that Would be Neccessary for Code:**
 
 *Health Insurance Coverage:*
-HCOV - Health insurance in the last year per household
 
-NOW_HCOV - Current health insurance per household
+    HCOV - Health insurance in the last year per household
 
-HPUB - public coverage in household in last year
+    NOW_HCOV - Current health insurance per household
 
-HPRIV - private coverage in household in last year
+    HPUB - public coverage in household in last year
+
+    HPRIV - private coverage in household in last year
 
 *Demographic Data:*
 
-PRDTRACE - numerical values for race
+    PRDTRACE - numerical values for race
 
 *Age Data:*
 
-HUNDER15 - age code for people under 15+
-AGE1 - age code for people over 15+
+    HUNDER15 - age code for people under 15+
+    
+    AGE1 - age code for people over 15+
 
 *Economic Status:*
 
-FTOT_R - total family income
+    FTOT_R - total family income
 
-HHINC - total household income
+    HHINC - total household income
 
-FAMLIS - families in poverty
+    FAMLIS - families in poverty
 
 
 
@@ -48,16 +52,11 @@ FAMLIS - families in poverty
 
 
 **Packages:**
--panda 
 
-
--collections
-
-
--statsmodels.api
-
-
--matplotlib
+    -panda
+    -collections
+    -statsmodels.api
+    -matplotlib
 
 
 **Link to all the Datasets that we will be using in this project:**
