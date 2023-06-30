@@ -48,7 +48,7 @@ FAMLIS - families in poverty
 
 
 **Packages:**
--panda
+-panda \n
 -collections
 -statsmodels.api
 -matplotlib
