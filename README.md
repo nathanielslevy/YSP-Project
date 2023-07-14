@@ -66,3 +66,10 @@ https://www.census.gov/data/datasets/time-series/demo/cps/cps-asec.html
 We expect to see a significant correlation between race,age, and economic status with the rate of health insurance coverage. On the regression model we expect to see a line of best that will accurately show the relationship between the two variables.
 
 **Link to Repository:** https://github.com/nathanielslevy/YSP-Project
+
+
+
+**Considerations:** 
+1. Are there issues outside of race that could influence health insurance coverage to a greater extent? - There are various factors that may influence health insurance outside of race, such as gender. It would also be important to consider other factors such as single-parents families vs divorced-parent families vs two-parent families.
+   
+2. From the data given is there a systematic explanation for the changes we may view? - There could be various systematic things such as making the sign up coverage harder to complete in order to prevent certain groups of people from signing up. 
