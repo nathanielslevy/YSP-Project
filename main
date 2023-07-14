@@ -1,0 +1,32 @@
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Reads in CSV
+custom_df = pd.read_csv("/Users/natelevy/PycharmProjects/PythonB Final Project/custom_df.csv")
+
+
+#defines the various racial cats using csv file
+white_df = custom_df[custom_df['Race'] == "White"]
+black_df = custom_df[custom_df['Race'] == "Black"]
+white_df.to_csv('white_df.csv', index=False)
+black_df.to_csv('white_df.csv', index=False)
+
+
+# changes 2s to 0s
+condition_w = white_df['Health Insurance Status'] == 2
+condition_b = black_df['Health Insurance Status'] == 2
+white_df.loc[condition_w, 'Health Insurance Status'] = white_df.loc[condition_w, 'Health Insurance Status'] -2
+black_df.loc[condition_b, 'Health Insurance Status'] = black_df.loc[condition_b, 'Health Insurance Status'] -2
+
+#finds mean values of the various racial groups
+mean_values = white_df.groupby('Age')['Health Insurance Status'].mean()
+mean_values = black_df.groupby('Age')['Health Insurance Status'].mean()
+print(mean_values.tolist())
+
+
+
+# scatters real data from data frame
+plt.plot(sorted(white_df["Age"].unique()), mean_values)
+plt.scatter(sorted(black_df["Age"].unique()), mean_values, c='red')
+
+plt.show()
